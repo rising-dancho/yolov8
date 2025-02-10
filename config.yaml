@@ -1,0 +1,7 @@
+path: C:/Users/adfinem/Documents/Github/yolov8/dataset  # Base path to your dataset
+train: images/train
+val: images/val
+
+
+nc: 2  # Number of classes
+names: ["Hammer", "Nail"]  # List of class names
