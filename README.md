@@ -1,20 +1,12 @@
 # yolov8
 
-
-### in order to run or test this:
-- python must also be installed on your machine (tick the `PATH` checkbox before installing python)
-- create the `virtual environment`, activate the virtual environment using the `Command Prompt` (make sure you are in the `Scripts` directory where `activate.bat` is located)
-- `cd` back to `backend` folder where the  `requirements.txt` is located and then run the command to install the packages
-- once you're done with the instructions above, make sure you are in the `backend` folder then run this code in the `Command Prompt`:
-  `python app.py`
-- finally, install `Postman` so that you can test the `/process-image` route
-
 # USE PYTHON version 3.10 in order to EXPORT the model as ".tflite" format
 - IF YOU ENCOUNTER THIS ERROR: `Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools"`: https://visualstudio.microsoft.com/visual-cpp-build-tools/ 
 - while trying to pip this: `pip install tflite-support`
 - WATCH THIS: https://www.youtube.com/watch?v=gzRBH726vUs
 - tldr: `pip install cmake`, INSTALL: Visual Studio Installer > Modify > `Desktop development with C++` > Modify
 - PROOF THAT IT WORKS:
+![image](https://github.com/user-attachments/assets/86206ab2-f0b2-416d-b36a-86fde859ec74)
 
 ### creating the virtual environment
 ```
@@ -48,36 +40,9 @@ python app.py
 ### gitignore must include
 
 ```
-# Python-related files
-*.pyc
-__pycache__/
-*.pyo
-*.pyd
-*.egg-info/
-*.egg
-pyvenv.cfg
-
-# Ignore backend-specific Python cache
-backend/__pycache__/
-
-# Ignore virtual environments
-.venv/
-venv/
-env/
-
-# Ignore site-packages if using a relative path
-Lib/site-packages/
-
-# OS or IDE-specific files
-.DS_Store
-*.log
-
-# IDE-specific files (e.g., for VSCode)
-.vscode/
-
-# Windows image file caches
-Thumbs.db
-
+venv
+runs
+dataset
 ```
 
 ### creating requirements.txt
