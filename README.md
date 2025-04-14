@@ -16,7 +16,7 @@ python -m venv venv
 
 ### activating the virtual environment: (run in command prompt)
 ```
-cd .venv/Scripts
+cd venv/Scripts
 activate.bat
 ```
 
