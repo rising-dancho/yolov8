@@ -9,6 +9,8 @@
   `python app.py`
 - finally, install `Postman` so that you can test the `/process-image` route
 
+# USE PYTHON version 3.10 in order to EXPORT the model as ".tflite" format
+
 ### creating the virtual environment
 ```
 python -m venv venv
@@ -30,6 +32,12 @@ OR
 ### installing packages from the requirements.txt
 ```
 pip install -r requirements.txt
+```
+
+### start the training 
+- (make sure you are in the correct folder location. and venv is activated)
+```
+python app.py
 ```
 
 ### gitignore must include
