@@ -1,0 +1,8 @@
+path: C:/Users/adfinem/Documents/yolov11-main/dataset  # Base path to your dataset
+train: train/images
+val: valid/images
+test: test/images
+
+
+nc: 7  # Number of classes
+names: ["Bistay_sand", "Cement", "Gravel", "Hollow_blocks", "Rebar", "Sack", "Skim_coat"]  # List of class names
