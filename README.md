@@ -13,7 +13,7 @@
 - IF YOU ENCOUNTER THIS ERROR: `Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools"`: https://visualstudio.microsoft.com/visual-cpp-build-tools/ 
 - while trying to pip this: `pip install tflite-support`
 - WATCH THIS: https://www.youtube.com/watch?v=gzRBH726vUs
-- tldr: pip install cmake, USE: visual studio installer > Modify > Desktop development with C++ > Modify
+- tldr: `pip install cmake`, INSTALL: Visual Studio Installer > Modify > `Desktop development with C++` > Modify
 - PROOF THAT IT WORKS:
 
 ### creating the virtual environment
