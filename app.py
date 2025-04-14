@@ -17,7 +17,7 @@ trained_model = YOLO(best_model_path)
 metrics = trained_model.val()
 
 # Run inference (optional)
-results = trained_model("images/hollow_block.jpg", conf=0.25)
+results = trained_model("images/hollow_blocks.jpg", conf=0.25)
 results = trained_model("images/sacks.jpg", conf=0.25)
 results[0].show()
 
