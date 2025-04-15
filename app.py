@@ -22,5 +22,5 @@ results = trained_model("images/sacks.jpg", conf=0.25)
 results[0].show()
 
 # ✅ Export trained modelo
-path = trained_model.export(format="tflite", half=True) # Works directly with Google ML Kit's ObjectDetector
+path = trained_model.export(format="torchscript", half=True) 
 print("Model exported to:", path)
