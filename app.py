@@ -22,5 +22,5 @@ results = trained_model("images/sacks.jpg", conf=0.25)
 results[0].show()
 
 # ✅ Export trained modelo
-path = trained_model.export(format="torchscript", half=True) 
+path = trained_model.export(format="torchscript") 
 print("Model exported to:", path)
