@@ -1,4 +1,4 @@
-path: C:/Users/adfinem/Documents/yolov8-main/dataset  # Base path to your dataset
+path: C:\Users\aceking\Documents\Github\yolov8\dataset  # Base path to your dataset
 train: images/train
 val: images/val
 test: images/test  # Add the test set path here
