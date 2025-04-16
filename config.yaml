@@ -1,8 +1,14 @@
 path: C:/Users/adfinem/Documents/yolov8-main/dataset  # Base path to your dataset
-train: train/images
-val: valid/images
-test: test/images
+train: images/train
+val: images/val
+test: images/test  # Add the test set path here
 
+nc: 7
+names: ['Bistay_sand', 'Cement', 'Gravel', 'Hollow_blocks', 'Rebar', 'Sack', 'Skim_coat']
 
-nc: 7  # Number of classes
-names: ["Bistay_sand", "Cement", "Gravel", "Hollow_blocks", "Rebar", "Sack", "Skim_coat"]  # List of class names
+roboflow:
+  workspace: cgg-marketing-hardware-supplies
+  project: hardware-supplies
+  version: 10
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cgg-marketing-hardware-supplies/hardware-supplies/dataset/10
