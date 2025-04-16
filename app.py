@@ -3,7 +3,7 @@ import glob
 
 # 1. Load and train the model (saves best.pt inside runs/detect/train*/weights/)
 model = YOLO("yolov8n.pt")
-model.train(data="config.yaml", epochs=10, device="cpu", imgsz=640)
+model.train(data="config.yaml", epochs=50, device="cpu", imgsz=640)
 
 # 2. Get the latest trained 'best.pt'
 best_model_path = sorted(glob.glob("runs/detect/train*/weights/best.pt"))[-1]
