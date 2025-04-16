@@ -1,4 +1,4 @@
-path: dataset
+path: C:/Users/adfinem/Documents/yolov8-main/dataset/
 train: train/images
 val: valid/images
 test: test/images
