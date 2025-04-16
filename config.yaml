@@ -1,7 +1,7 @@
-path: C:/Users/adfinem/Documents/yolov8-main/dataset  # Base path to your dataset
-train: images/train
-val: images/val
-test: images/test  # Add the test set path here
+path: dataset
+train: train/images
+val: valid/images
+test: test/images
 
 nc: 7
 names: ['Bistay_sand', 'Cement', 'Gravel', 'Hollow_blocks', 'Rebar', 'Sack', 'Skim_coat']
@@ -9,6 +9,6 @@ names: ['Bistay_sand', 'Cement', 'Gravel', 'Hollow_blocks', 'Rebar', 'Sack', 'Sk
 roboflow:
   workspace: cgg-marketing-hardware-supplies
   project: hardware-supplies
-  version: 10
+  version: 11
   license: CC BY 4.0
-  url: https://universe.roboflow.com/cgg-marketing-hardware-supplies/hardware-supplies/dataset/10
+  url: https://universe.roboflow.com/cgg-marketing-hardware-supplies/hardware-supplies/dataset/11
